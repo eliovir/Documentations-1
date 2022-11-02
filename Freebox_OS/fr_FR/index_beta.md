@@ -16,18 +16,18 @@ Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Fre
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
 - **Les informations système :**
-  - Couper le wifi
+  - Couper le Wi-Fi
   - Redémarrer votre Freebox
   - Les débits internet
   - L'état de votre connexion
   - Gestion du filtrage des appels
-- **Téléphone :** sur les dernieres 24h
+- **Téléphone :** sur les dernières 24h
   - Le nombre d'appels en absence
   - Le nombre d'appels passés
   - Le nombre d'appels reçus
-- **Disque Dur :**
+- **Disque dur :**
   - La place disponible dans vos disques connectés à la Freebox Serveur.
-- **Appareils connectés sur le LAN et le Wifi Invité:**
+- **Appareils connectés sur le LAN et le Wifi Invité :**
   - L’état de chaque équipement DHCP
   - Possibilité d'utiliser la commande **_Wake on LAN_** uniquement par scénario
 - **Domotique (uniquement pour la DELTA) :**
@@ -93,7 +93,7 @@ Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attri
 
 ## Scan
 
-Dans la fenêtre ci-dessous, Il est possible de lancer le scan des différents équipements.
+Dans la fenêtre ci-dessous, il est possible de lancer le scan des différents équipements.
 
 <p><img src="../images/Freebox_OS_screenshot7.png" alt="Authentification 5" width="300" /></p>
 
@@ -137,7 +137,7 @@ Les équipements et les commandes suivants vont être créés :
   - Player actuel AirMedia
   - AirMedia Start
   - AirMedia Stop
-- **Appareils connectés** et **Appareils connectés Wifi Invité**
+- **Appareils connectés** et **Appareils connectés Wi-Fi Invité**
   - Ensemble des appareils connectés à la Freebox
   - Possibilité d'utiliser la commande **_Wake on LAN_** uniquement par scénario
 - **Disque Dur**
@@ -158,8 +158,8 @@ Les équipements et les commandes suivants vont être créés :
     > Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
     > Les Player mini4K ne sont pas compatibles, les players POP ne sont pas encore compatibles.
 - **Partage Windows - Mac**
-  - Activer / Désactiver le Partage de fichiers Mac, Windows, FTP
-  - Activer / Désactiver le Partage Imprimante (disponible uniquement si SMBv2 n'est pas actif)
+  - Activer / Désactiver le partage de fichiers Mac, Windows, FTP
+  - Activer / Désactiver le partage d'imprimante (disponible uniquement si SMBv2 n'est pas actif)
 - **Système**
   - Update
   - Reboot
@@ -172,8 +172,8 @@ Les équipements et les commandes suivants vont être créés :
   - serial
   - 4G si la carte est présente dans la Freebox
 - **Téléphone** sur les dernieres 24h
-  - Nombre Appels Manqués / Reçus / Passés
-  - Liste Appels Manqués / Reçus / Passés
+  - Nombre d'appels manqués / reçus / passés
+  - Liste des appels manqués / reçus / passés
 - **Téléchargements**
   - Nombre de tâches
   - Nombre de tâches actives, en extraction, en réparation, en vérification, en attente, en erreur, stoppées, terminées
@@ -185,8 +185,8 @@ Les équipements et les commandes suivants vont être créés :
   - Action possible : Stop, Redémarrer, Start
   - info : Nb de CPU, Adresse Mac, Mémoire, Port USB, Ecran Virtuel, Type de Disque
 - **Wifi**
-  - Statut du wifi
-  - Wifi On Off
+  - Statut du Wi-Fi
+  - Wi-Fi On Off
   - Gestion du filtrage des appels
 
 # Le contrôle parental

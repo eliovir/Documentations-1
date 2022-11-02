@@ -35,7 +35,7 @@ pluginId: Freebox_OS
 
 - **Wifi**
 
-  - Correction Bug état des cartes Wifi
+  - Correction Bug état des cartes Wi-Fi
   
 # 26/10/2022
 
@@ -46,7 +46,7 @@ pluginId: Freebox_OS
 - **Général**
 
 - Arrêt des crons actifs lors du refreshToken
-- Création d'un Cron semaine pour rechercher la version de l'API valide
+- Création d'un Cron hebdomadaire pour rechercher la version de l'API valide
 - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
 - Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
 - Ajout fonctionnalité core V4.3
@@ -56,17 +56,17 @@ pluginId: Freebox_OS
   > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer le scan "Scan équipements standard"**
 
     > Réécriture complète de cette partie
-    > Les anciennes commandes seront supprimées car non compatible
+    > Les anciennes commandes seront supprimées car non compatibles
 
 - **Appairage** (21.09.2022, 22/09/2022)
   - Ajout Bouton pour ignorer la vérification des droits 
-  - Ajout Bouton pour faire un reset de l'API de la freebox
+  - Ajout Bouton pour faire un reset de l'API de la Freebox
 
 - **Appareils connectés** (28/08/2022)
 
-  - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
-  - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de futures améliorations
-  - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elles sont désormais intégré dans la gestion réseau :
+  - Correction de l'ordre des appareils (en premier les connectés suivis des non connectés)
+  - Réécriture de la commande de rafraîchissement et de création des commandes en vue de l'ajout de futures améliorations
+  - Les commandes suivantes seront supprimées lors de la prochaine mise à jour car elles sont désormais intégrées dans la gestion réseau :
 
     > "Ajouter supprimer IP Fixe"
     > "Wake on LAN"
@@ -92,31 +92,30 @@ pluginId: Freebox_OS
 - **Tiles**
 
   - Ajout texte d'information pour l'actualisation globale des titles dans le cas de volet SOMFY
-  - Correction du refresh équipement si le cron global n’est pas actif
+  - Correction du rafraîchissement des équipements si le cron global n’est pas actif
 
 - **Wifi**
 
-  > La commande "Ajout - Supprimer filtrage Mac" sera supprimer lors de la prochaine mise à jour car elle est désormais intégré dans la gestion réseau
+  > La commande "Ajout - Supprimer filtrage Mac" sera supprimé lors de la prochaine mise à jour car elle est désormais intégrée dans la gestion réseau
 
 # 30/04/2022
 
-- Modification de la liste des Appels
-- Ajout info sur les disques dur
-- Suppression Cron jour
+- Modification de la liste des appels
+- Ajout info sur les disques durs
+- Suppression Cron journalier
 - Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire, cela peut poser des problèmes en cas de commande en double)
-- Suppression Cron jour
 
   > - un cron spécifique est paramétrable dans les équipements de type "Disque", "Appareils connectés", "Homeadapter"
-  > - si le champs "Ajout des nouvelles commandes" est laissé vide, les nouvelles commandes ne seront pas ajoutées
+  > - si le champ "Ajout des nouvelles commandes" est laissé vide, les nouvelles commandes ne seront pas ajoutées
 
 # 17/03/2022
 
 - Modification création commande Homeadapter
 - Correction bug Groupe Freeplug
 - Ajout commande ON/OFF => home adapter mais attente réponse Free
-- Modification recherche Network avec mise a jour des noms des équipements
+- Modification recherche Network avec mise à jour des noms des équipements
 - Mise à jour création commande network
-- Correction nom des VM lors de la création
+- Correction du nom des VM lors de la création
 
 # 06/12/2021
 
